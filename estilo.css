@@ -23,6 +23,10 @@ header,
     height: 520px;
 }
 
+body{
+	background-color: black;
+}
+
 iframe{
 	width: 100%;
 	height: 400px;
