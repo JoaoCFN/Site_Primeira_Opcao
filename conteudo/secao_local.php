@@ -1,6 +1,6 @@
 <div id="local" class="localizacao pt-3 pb-5">
 	<div class="scroll_animado">
-		<h1 class="txt_capa_1 sombra pb-4">LOCALIZAÇÃO</h1>
+		<h1 class="txt_capa_4 sombra pb-4">Localização</h1>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
