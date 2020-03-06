@@ -9,10 +9,13 @@
     <?php require_once "conteudo/secao_topo.php"?>
 
     <!-- SEÇÃO DO TESTE DO SITE-->
-    <?php require_once "conteudo/secao_local.php"?>
+    <?php require_once "conteudo/teste.php"?>
 
-    <!-- SEÇÃO DO TOPO DO SITE-->
+    <!-- SEÇÃO DO TESTE 2 DO SITE-->
     <?php require_once "conteudo/teste2.php"?>
+
+    <!-- SEÇÃO DO LOCAL DO SITE-->
+    <?php require_once "conteudo/secao_local.php"?>
       
     <!-- FOOTER ->
     <?php require_once "conteudo/footer.php"?>

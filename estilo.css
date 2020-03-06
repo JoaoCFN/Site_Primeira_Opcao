@@ -20,7 +20,7 @@ header,
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;	
-    height: 490px;
+    height: 520px;
 }
 
 iframe{
@@ -296,6 +296,12 @@ iframe{
 	width: auto;
 	background-color: #000000;
 }
+.secao_teste{
+	height: 400px;
+	width: auto;
+	background-color: #000000;
+}
+
 
 
 

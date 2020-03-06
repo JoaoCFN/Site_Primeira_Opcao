@@ -19,24 +19,13 @@ function anima_rolagem(){
 			// SCROLLTOP ANIMA O DESLIZE
 			// 500 É A QUANTIDADE DE TEMPO EM MS
 			// É NECESSÁRIO SUBTRAIR O TAMANHO DO MENU PARA A DESCIDA SER AJUSTADA
-			scrollTop: targetOffset - menuHeight
+			// +1 SERVE PARA FAZER O AJUESTE IDEAL DA LINHA
+			scrollTop: (targetOffset - menuHeight) + 1
 		}, 500)
 	});
 }
 
 anima_rolagem()
-
-function teste(){
- 	var url_atual = window.location.href;
-
-	if (url_atual == "JMC_Eventos/produtos.php"){
-		console.log(`Salve`)
-	}
-	
-	else{
-		console.log(`fdsfsdf`)
-	}	
-}
 
 
 // FUNÇÃO ATIVA A COR DO NAVBAR QUANDO A PÁGINA É ROLADA PARA BAIXO
