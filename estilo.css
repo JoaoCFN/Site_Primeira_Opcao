@@ -7,7 +7,7 @@ header,
 }
 
 #intro {
-    background: url("midia/back.jpg")no-repeat center center fixed;
+    background: url("midia/banner01.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -51,11 +51,12 @@ header,
 }
 
 .nav-item a{
-	font-family: "Bree Serif",sans-serif;	
+	font-family: 'Oswald', sans-serif;
 	font-size: 19px;
 }
 .cor_menu{
-	background-color: rgba(210, 17, 10, 0.9);
+	/*background-color: rgba(210, 17, 10, 0.9);*/
+	background-color: rgba(0, 0, 0, .9);
 	transition: 1.5s;
 }
 
@@ -65,7 +66,7 @@ header,
 	font-size: 22px;
 }
 .opcoes_nav{
-	font-family: 'Bree Serif', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	
 }
@@ -81,17 +82,17 @@ header,
 @keyframes opac{from{opacity:0} to{opacity:1}}
 
 .txt_capa_1{
-	font-size: 35px;
+	font-size: 45px;
 	color: #FFF;
-	font-family: 'Bree Serif', serif;
+	font-family: 'Oswald', sans-serif;
 	text-align: center;
 
 }
 
 .txt_capa_2{
-	font-size: 18px;
+	font-size: 20px;
 	color: #FFF;
-	font-family: 'Bree Serif', serif;
+	font-family: 'Oswald', sans-serif;
 	text-align: center;
 
 }
@@ -129,19 +130,19 @@ header,
 	left: 0 !important; 
 }
 .texto_botao{
-	font-family: 'Bree Serif', serif;
+	font-family: 'Oswald', sans-serif;
 }
 .promocao h5{
 	color: #d2110a;
 	font-weight: 800;
 	font-size: 30px;
-	font-family: 'Bree Serif', serif;
+	font-family: 'Oswald', sans-serif;
 
 }
 .promocao p{
 	font-size: 20px;
 	text-align: justify;
-	font-family: 'Bree Serif', serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 /* GALERIA DE PRODUTOS */
