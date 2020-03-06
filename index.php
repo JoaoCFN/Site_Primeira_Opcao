@@ -7,6 +7,12 @@
       
      <!-- SEÇÃO DO TOPO DO SITE-->
     <?php require_once "conteudo/secao_topo.php"?>
+
+    <!-- SEÇÃO DO TESTE DO SITE-->
+    <?php require_once "conteudo/teste.php"?>
+
+    <!-- SEÇÃO DO TOPO DO SITE-->
+    <?php require_once "conteudo/teste2.php"?>
       
     <!-- FOOTER ->
     <?php require_once "conteudo/footer.php"?>

@@ -14,6 +14,15 @@ header,
     background-size: cover;
 
 }
+#tabua1{
+	background: url("midia/restaurante1.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+    height: 490px;
+}
+
 
 
 /* MENU */
@@ -268,6 +277,11 @@ header,
 }
 .black{
 	color: #212529;	
+}
+.naosei{
+	height: 400px;
+	width: auto;
+	background-color: #000000;
 }
 
 
