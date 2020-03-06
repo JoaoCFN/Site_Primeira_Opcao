@@ -10,7 +10,7 @@
 			<div class="col-sm-6 align-self-center">
 				<div align="center">
 					<h1 class="txt_capa_3">Av. Maria Quitéria</h1>
-					<p class="txt_capa_2">2217 - São João</p>
+					<p class="txt_capa_2">Nº 2217 - São João</p>
 		            <p class="txt_capa_2">Feira de Santana - BA</p>
 
 		            <a href="#ambiente"><button type="button" class="btn btn-outline-light btn-lg texto_botao btn_ambiente">AMBIENTE</button></a>
