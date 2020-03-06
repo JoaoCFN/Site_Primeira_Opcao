@@ -24,7 +24,7 @@
               </li>
               <li class="nav-item">
                 <span>
-                  <a class="nav-link p-3" href="#servicos">SERVIÇOS</a>
+                  <a class="nav-link p-3" href="#local">LOCAL</a>
                 </span>
               </li>
               <li class="nav-item">
