@@ -1,4 +1,4 @@
-<div class="secao_teste">
+<div class="secao_entrega">
 	<div class="scroll_animado pt-3" id="entrega">
 		<h1 class="txt_capa_4 pb-3">Entrega</h1>
 		<div class="container">

@@ -100,7 +100,7 @@ iframe{
 @keyframes opac{from{opacity:0} to{opacity:1}}
 
 .txt_capa_1{
-	font-size: 45px;
+	font-size: 55px;
 	color: #FFF;
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
@@ -127,6 +127,12 @@ iframe{
 	font-family: 'Pacifico', cursive;
 	text-align: center;
 
+}
+.txt_capa_5{
+	font-size: 25px;
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;	
 }
 
 .sombra{
@@ -307,7 +313,7 @@ iframe{
 	width: auto;
 	background-color: #000000;
 }
-.secao_teste{
+.secao_entrega{
 	height: 400px;
 	width: auto;
 	background-color: #000000;

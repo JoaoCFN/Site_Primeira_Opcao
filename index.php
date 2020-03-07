@@ -9,7 +9,7 @@
     <?php require_once "conteudo/secao_topo.php"?>
 
     <!-- SEÇÃO DO TESTE DO SITE-->
-    <?php require_once "conteudo/teste.php"?>
+    <?php require_once "conteudo/secao_entrega.php"?>
 
     <!-- SEÇÃO DO TESTE 2 DO SITE-->
     <?php require_once "conteudo/teste2.php"?>

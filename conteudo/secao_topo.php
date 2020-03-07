@@ -8,7 +8,7 @@
                   <div class="container">
                       <div class="col-sm-12">
                           <h1 class="txt_capa_1 sombra">Tá com fome?</h1>
-                          <p class="txt_capa_2 sombra">Vem pro Restaurante 1º Opção</p>
+                          <p class="txt_capa_5 sombra">Vem pro Restaurante 1º Opção</p>
 
                           <div class="row">
                             <div class="col-sm-6 pb-2">
