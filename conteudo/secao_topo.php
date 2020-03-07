@@ -20,7 +20,7 @@
                             <div class="col-sm-6 pb-2">
                               <!-- BOTÃO "PROMOÇÕES" -->
                               <span>
-                                <a href="#promo"><button type="button" class="btn btn-outline-light btn-lg texto_botao sombra">ENTREGA</button></a>
+                                <a href="#entrega"><button type="button" class="btn btn-outline-light btn-lg texto_botao sombra">ENTREGA</button></a>
                               </span>
                             </div>   
                           </div>
