@@ -350,6 +350,8 @@ iframe{
 /* TAMANHO DO MENU */
 .small{
 	height: 100px;
+	padding: 5px;
+	
 }
 
 .small .navbar-brand{

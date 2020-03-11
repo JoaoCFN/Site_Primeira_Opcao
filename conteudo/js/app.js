@@ -13,13 +13,14 @@ function anima_rolagem(){
 			// INNER HEIGHT PEGA A ALTURA DO MENU
 			targetOffset = $(id).offset().top,
 			menuHeight = $('nav').innerHeight();
-	
+		
 		// SELECIONO O HTML E O BODY PARA ANIMAR
 		$('html, body').animate({
 			// SCROLLTOP ANIMA O DESLIZE
 			// 500 É A QUANTIDADE DE TEMPO EM MS
 			// É NECESSÁRIO SUBTRAIR O TAMANHO DO MENU PARA A DESCIDA SER AJUSTADA
-			// +44 SERVE PARA FAZER O AJUESTE IDEAL DA LINHA
+			// +1 SERVE PARA FAZER O AJUESTE IDEAL DA LINHA
+			
 			scrollTop: (targetOffset - menuHeight) + 1
 		}, 500)
 	});
@@ -43,6 +44,7 @@ function cor_navbar(){
 		}
 	})
 
+	// MUDA A COR QUANDO O MENU ABRE
 	function icone_mudar_cor(){
 		if ($('nav button').click(function(e){
 			$('nav').removeClass('small').addClass('cor_menu');	
@@ -65,7 +67,6 @@ function diminur_navbar(){
 		else {
 			$('nav').removeClass('small');
 		}
-
 
 	})
 
@@ -130,4 +131,26 @@ function animacao_comscroll_left(){
 
 animacao_comscroll_left();
 
-
+function aaa(){
+	// Ativa a função toda vez que o usuário utilizar o scroll
+	// Usa o debounce da biblioteca lodash, para evitar excessivos disparos da função ao scroll. Assim a função só vai disparar a cada 200ms, o tempo é informado ao final da função.
+	$(window).on('scroll', _.debounce(function() {
+	    
+	    // Seleciona a navegação
+	    // Identifica o tamanho total do menu
+	    // Verifica a distância entre o scroll e o topo
+	    var $nav = $('nav'),
+	            navHeight = $nav.outerHeight(),
+	            windowTop = $(this).scrollTop();
+	    
+	    // Verifica quando a distância do scroll for maior que o tamanho total do menu
+	    if (windowTop > navHeight) {
+	        // Adiciona a classe small ao menu
+	        $('nav').addClass('small');
+	    } else {
+	        // Remove a classe small do menu
+	        $('nav').removeClass('small');
+	    }
+	}, 200));	
+}
+aaa()
