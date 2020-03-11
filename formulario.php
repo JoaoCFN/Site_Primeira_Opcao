@@ -27,7 +27,7 @@
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="nome">Nome da empresa</label>
-      <input type="text" class="form-control" id="nome" placeholder="nome">
+      <input type="text" class="form-control" id="nome" placeholder="Nome da empresa">
     </div>
     <div class="form-group col-md-6">
       <label for="cnpj">Cnpj</label>
