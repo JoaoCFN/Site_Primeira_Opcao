@@ -19,7 +19,7 @@ function anima_rolagem(){
 			// SCROLLTOP ANIMA O DESLIZE
 			// 500 É A QUANTIDADE DE TEMPO EM MS
 			// É NECESSÁRIO SUBTRAIR O TAMANHO DO MENU PARA A DESCIDA SER AJUSTADA
-			// +1 SERVE PARA FAZER O AJUESTE IDEAL DA LINHA
+			// +44 SERVE PARA FAZER O AJUESTE IDEAL DA LINHA
 			scrollTop: (targetOffset - menuHeight) + 1
 		}, 500)
 	});
@@ -36,6 +36,7 @@ function cor_navbar(){
 
 		if ($(window).scrollTop()){
 			$('nav').addClass('cor_menu');
+
 		}
 		else {
 			$('nav').removeClass('cor_menu');
@@ -44,7 +45,7 @@ function cor_navbar(){
 
 	function icone_mudar_cor(){
 		if ($('nav button').click(function(e){
-			$('nav').addClass('cor_menu');	
+			$('nav').removeClass('small').addClass('cor_menu');	
 		}));
 
 	}
@@ -52,6 +53,24 @@ function cor_navbar(){
 }
 
 cor_navbar()
+
+function diminur_navbar(){
+	
+	$(window).on('scroll', function(){
+
+		if ($(window).scrollTop()){
+			$('nav').addClass('small');
+
+		}
+		else {
+			$('nav').removeClass('small');
+		}
+
+
+	})
+
+}
+
 
 // DEBOUNCE DO LODASH
 // FUNÇÃO USADA DENTRO DO FRAMEWORK LODASH
@@ -110,3 +129,5 @@ function animacao_comscroll_left(){
 };
 
 animacao_comscroll_left();
+
+

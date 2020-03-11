@@ -16,6 +16,12 @@
 
     <!-- SEÇÃO DO LOCAL DO SITE-->
     <?php require_once "conteudo/secao_local.php"?>
+
+    <!-- SEÇÃO DO AMBIENTE DO SITE-->
+    <?php require_once "conteudo/secao_ambiente.php"?>
+
+    <!-- SEÇÃO DOS PRATOS DO SITE-->
+    <?php require_once "conteudo/secao_pratos.php"?>
       
     <!-- FOOTER ->
     <?php require_once "conteudo/footer.php"?>

@@ -14,7 +14,7 @@
                             <div class="col-sm-6 pb-2">
                               <!-- BOTÃO "PRODUTOS" -->
                               <span>
-                                <a href="#products"><button type="button" class="btn btn-outline-light btn-lg texto_botao sombra">PRATOS</button></a>
+                                <a href="#pratos"><button type="button" class="btn btn-outline-light btn-lg texto_botao sombra">PRATOS</button></a>
                               </span>
                             </div>
                             <div class="col-sm-6 pb-2">
