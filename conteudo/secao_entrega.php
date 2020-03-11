@@ -9,7 +9,7 @@
 			            <p class="txt_capa_2">Receba seus pedidos em casa ou escolha retirá-los na loja</p>
 			            <p class="txt_capa_2">Disponibilidade de entrega na hora!</p>
 
-			            <a href="#ambiente"><button type="button" class="btn btn-outline-light btn-lg texto_botao btn_ambiente">FAÇA SEU PEDIDO</button></a>	
+			            <a href="#ambiente"><button type="button" class="btn btn-outline-light btn-lg texto_botao btn_ambiente btn_laranja">FAÇA SEU PEDIDO</button></a>	
 					</div>	
 				</div>	
 				<div class="col-sm-6 align-self-center">

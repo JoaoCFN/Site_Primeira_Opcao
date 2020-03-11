@@ -1,6 +1,6 @@
 <div id="local" class="localizacao pt-3 pb-5">
 	<div class="scroll_animado">
-		<h1 class="txt_capa_4 sombra pb-4">Localização</h1>
+		<h1 class="txt_capa_4 pb-4">Localização</h1>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
@@ -14,7 +14,7 @@
 						<p class="txt_capa_2">Nº 2217 - São João</p>
 			            <p class="txt_capa_2">Feira de Santana - BA</p>
 
-			            <a href="#ambiente"><button type="button" class="btn btn-outline-light btn-lg texto_botao btn_ambiente">AMBIENTE</button></a>
+			            <a href="#ambiente"><button type="button" class="btn btn-outline-light btn-lg texto_botao btn_ambiente btn_laranja">AMBIENTE</button></a>
 			       	</div>	
 				</div>	
 

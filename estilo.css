@@ -24,7 +24,7 @@ header,
 }
 
 body{
-	background-color: black;
+	background-color: #FFF;
 }
 
 iframe{
@@ -74,7 +74,7 @@ iframe{
 }
 .cor_menu{
 	/*background-color: rgba(210, 17, 10, 0.9);*/
-	background-color: rgba(0, 0, 0, .9);
+	background-color: rgba(255, 103, 1, .9);
 	transition: 1.5s;
 }
 
@@ -109,21 +109,21 @@ iframe{
 
 .txt_capa_2{
 	font-size: 20px;
-	color: #FFF;
+	color: #000;
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
 
 }
 .txt_capa_3{
 	font-size: 35px;
-	color: #FFF;
+	color: #000;
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
 
 }
 .txt_capa_4{
 	font-size: 60px;
-	color: #FFF;
+	color: #000;
 	font-family: 'Pacifico', cursive;
 	text-align: center;
 
@@ -138,23 +138,20 @@ iframe{
 .sombra{
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
-.btn-outline-danger{
-	background-color: #FFF;
-	color: #d2110a;
-}
-.btn-outline-danger:hover{
-	color: #fff;
-	background-color: #d2110a;
-}
 
-.btn-outline-danger{
-	width: 200px !important;
-	font-family: 'Bree Serif', serif !important;
 }
 .btn_saiba_mais{
 	width: 100% !important;
 }
-
+.btn_laranja{
+	background-color: #ff6701;
+	color: #FFF;
+}
+.btn_laranja:hover{
+	border-color: #ff6701;
+	background-color: #FFF;
+	color: #ff6701;
+}
 }
 .btn_enviar{
 	width: 100% !important;
@@ -311,12 +308,12 @@ iframe{
 .localizacao{
 	height: auto;
 	width: auto;
-	background-color: #000000;
+	background-color: #FFF;
 }
 .secao_entrega{
 	height: 400px;
 	width: auto;
-	background-color: #000000;
+	background-color: #FFF;
 }
 
 
