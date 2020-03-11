@@ -1,0 +1,16 @@
+<div id="tabua1">
+	<div class="secao_instagram">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-sm-12" align="center">
+					<h1 class="sombra">Instagram</h1>
+					<p class="sombra">Quer um contato mais próximo com a gente?</p>
+					<p class="sombra">Siga-nos no Instagram</p>
+					
+	                <a target="_blank" href="https://www.instagram.com/restaurante1opcao/?hl=pt-br"><button type="button" class="btn btn-outline-light btn-lg texto_botao sombra btn_insta">SEGUIR</button></a>
+				</div>
+				
+			</div> 
+		</div>
+	</div>
+</div>

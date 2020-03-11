@@ -15,7 +15,7 @@ header,
 
 }
 #tabua1{
-	background: url("midia/restaurante1.jpg")no-repeat center center fixed;
+	background: url("midia/restaurante2.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,7 +73,6 @@ iframe{
 	font-size: 19px;
 }
 .cor_menu{
-	/*background-color: rgba(210, 17, 10, 0.9);*/
 	background-color: rgba(255, 103, 1, .9);
 	transition: 1.5s;
 }
@@ -311,9 +310,30 @@ iframe{
 	background-color: #FFF;
 }
 .secao_entrega{
-	height: 400px;
+	height: auto;
 	width: auto;
 	background-color: #FFF;
+}
+/* CENTRALIZA O TEXTO */
+.secao_instagram{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 
+}
+.secao_instagram h1{
+	font-size: 55px;
+	color: #FFF;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+.secao_instagram p{
+	font-size: 25px;
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+.btn_insta{
+	width: 25%;
 }
 
 
