@@ -7,13 +7,14 @@ function anima_rolagem(){
 		e.preventDefault();
 		// CAPTURO O ATRIBUTO HREF QUANDO O BUTÃO FOI CLICADO
 		// THIS VAI SER O ITEM QUE EU CLIQUEI
+
 		var id = $(this).attr('href'),
 			// PEGA A DISTÂNCIA ENTRE O ELEMENTO CAPTURADO E O TOPO DA PÁGINA
 			// OFFSET RETORNA O TOP E O LEFT DO ELEMENTO
 			// INNER HEIGHT PEGA A ALTURA DO MENU
 			targetOffset = $(id).offset().top,
-			menuHeight = $('nav').innerHeight();
-
+			menuHeight = 100
+			
 
 		// SELECIONO O HTML E O BODY PARA ANIMAR
 		$('html, body').animate({
@@ -45,18 +46,21 @@ function cor_navbar(){
 		}
 	})
 
-	// MUDA A COR QUANDO O MENU ABRE
-	function icone_mudar_cor(){
-		if ($('nav button').click(function(e){
-			$('nav').removeClass('small').addClass('cor_menu');	
-		}));
-
-	}
-	icone_mudar_cor();
+	
 }
 
+// MUDA A COR QUANDO O MENU ABRE
+function icone_mudar_cor(){
+	if ($('nav button').click(function(e){
+		$('nav').removeClass('small').addClass('cor_menu');	
+	}));
+
+}
+	
+icone_mudar_cor();
 cor_navbar()
 
+// CARREGA CLASSE QUE DIMINUI O TAMANHO DO MENU
 function diminur_navbar(){
 	
 	$(window).on('scroll', function(){
@@ -72,8 +76,19 @@ function diminur_navbar(){
 	})
 
 }
+// FECHA O MENU APÓS ALGUM ITEM FOR CLICADO
+function fecha_menu(){
+	var menu = document.getElementsByClassName("navbar-collapse");
+	var icone_menu = document.getElementsByClassName("navbar-toggler");
+	if ($(menu).click(function(e){
+		$(menu).removeClass('show');
+		$(icone_menu).addClass('collapsed');
+		$(icone_menu).attr("aria-expanded", "false")
+	}));
+}
 
 diminur_navbar()
+fecha_menu()
 
 
 // DEBOUNCE DO LODASH
@@ -133,12 +148,3 @@ function animacao_comscroll_left(){
 };
 
 animacao_comscroll_left();
-
-function teste(){
-	var teste = document.getElementsByClassName("navbar-collapse");
-	if ($(teste).click(function(e){
-		$(teste).removeClass('show');	
-	}));
-
-}
-teste();

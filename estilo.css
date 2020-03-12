@@ -292,6 +292,7 @@ iframe{
 .navbar-toggler[aria-expanded="false"] .barra{
 	display: table;
 }
+
 /* ICONE PARA VOLTAR AO TOPO */
 .icone_voltar_topo{
 	color: #d2110a;
@@ -350,13 +351,12 @@ iframe{
 /* TAMANHO DO MENU */
 .small{
 	height: 100px;
-	padding: 5px;
 	
 }
-
 .small .navbar-brand{
 	width: 130px;
 }
+
 .secao_patros .carousel-item{
 	width: 100% !important;
 	height: 1000px;
@@ -448,6 +448,7 @@ iframe{
   }
 }
 .show{}
+.collapsed{}
 
 
 
