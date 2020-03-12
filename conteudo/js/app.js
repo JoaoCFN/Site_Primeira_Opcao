@@ -13,7 +13,8 @@ function anima_rolagem(){
 			// INNER HEIGHT PEGA A ALTURA DO MENU
 			targetOffset = $(id).offset().top,
 			menuHeight = $('nav').innerHeight();
-		
+
+
 		// SELECIONO O HTML E O BODY PARA ANIMAR
 		$('html, body').animate({
 			// SCROLLTOP ANIMA O DESLIZE
@@ -71,6 +72,8 @@ function diminur_navbar(){
 	})
 
 }
+
+diminur_navbar()
 
 
 // DEBOUNCE DO LODASH
@@ -131,3 +134,11 @@ function animacao_comscroll_left(){
 
 animacao_comscroll_left();
 
+function teste(){
+	var teste = document.getElementsByClassName("navbar-collapse");
+	if ($(teste).click(function(e){
+		$(teste).removeClass('show');	
+	}));
+
+}
+teste();
