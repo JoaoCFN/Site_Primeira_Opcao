@@ -1,40 +1,13 @@
-<div class="row">
-  <div class="column">
-    <img src="midia\lightbox\prato1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="midia\lightbox\prato2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="midia\lightbox\prato3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-</div>
-
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="midia\lightbox\prato1.jpg" style="width:100%">
+<div class="container">
+  <div class="row">
+    <div class="col order-last">
+    <a data-fancybox="gallery" href="midia\lightbox\prato1.jpg"><img src="midia\lightbox\thumb_prato1.png"></a>
     </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="midia\lightbox\prato2.jpg" style="width:100%">
+    <div class="col">
+    <a data-fancybox="gallery" href="midia\lightbox\prato2.jpg"><img src="midia\lightbox\thumb_prato2.png"></a>
     </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 3</div>
-      <img src="midia\lightbox\prato3.jpg" style="width:100%">
+    <div class="col order-first">
+    <a data-fancybox="gallery" href="midia\lightbox\prato3.jpg"><img src="midia\lightbox\thumb_prato3.png"></a>
     </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-	
   </div>
 </div>
