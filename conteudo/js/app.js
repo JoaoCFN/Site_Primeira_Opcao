@@ -72,7 +72,6 @@ function diminur_navbar(){
 		else {
 			$('nav').removeClass('small');
 		}
-
 	})
 
 }
@@ -85,6 +84,8 @@ function fecha_menu(){
 		$(icone_menu).addClass('collapsed');
 		$(icone_menu).attr("aria-expanded", "false")
 	}));
+
+
 }
 
 diminur_navbar()
