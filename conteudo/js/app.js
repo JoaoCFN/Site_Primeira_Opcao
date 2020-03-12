@@ -148,6 +148,9 @@ function animacao_comscroll_left() {
 
 animacao_comscroll_left();
 
+// FUNÇÕES DO MODAL
+
+
 function openModal() {
     document.getElementById("myModal").style.display = "block";
 }
