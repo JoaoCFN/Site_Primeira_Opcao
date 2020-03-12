@@ -350,8 +350,7 @@ iframe{
 
 /* TAMANHO DO MENU */
 .small{
-	height: 100px;
-	
+	height: 100px;	
 }
 .small .navbar-brand{
 	width: 130px;
@@ -447,6 +446,8 @@ iframe{
     opacity: 0.7; 
   }
 }
+
+/* CLASSES ADICIONAS NA FUNÇÃO DIMINUIR NAVBAR NO JS */
 .show{}
 .collapsed{}
 

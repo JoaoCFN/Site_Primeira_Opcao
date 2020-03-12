@@ -11,7 +11,7 @@ function anima_rolagem(){
 		var id = $(this).attr('href'),
 			// PEGA A DISTÂNCIA ENTRE O ELEMENTO CAPTURADO E O TOPO DA PÁGINA
 			// OFFSET RETORNA O TOP E O LEFT DO ELEMENTO
-			// INNER HEIGHT PEGA A ALTURA DO MENU
+			// A ALTURA DO MENU É FIXA APÓS A ROLAGEM DEVIDO A FUNÇÃO DIMINUIR NAVBAR
 			targetOffset = $(id).offset().top,
 			menuHeight = 100
 			
