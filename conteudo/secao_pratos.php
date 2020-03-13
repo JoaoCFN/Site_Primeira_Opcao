@@ -1,5 +1,5 @@
 <div class="container">
-    <div id="pratos" class=" scroll_animado" >
+    <div id = "pratos" class=" scroll_animado" >
           <div class="secao_pratos" >
             <h1 class="pb-4">Pratos</h1>
           <div class="row">
