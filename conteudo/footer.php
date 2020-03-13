@@ -1,7 +1,52 @@
 <!-- INÍCIO DO RODAPÉ -->
     <footer>
-      <div class="container">
-       
+      <div class="secao_footer pt-3 pb-3 mt-5" align="center">
+        <div class="container">
+            <div class="row">
+              
+              <div class="col-sm-3 align-self-center pt-2">
+                <p>
+                  <a href="index.php">
+                    <img class="img-fluid" src="midia/logo01.png" width="200">
+                  </a>
+                </p>  
+              </div>  
+
+              <div class="col-sm-3 align-self-center pt-2">
+                <span>
+                  <a href="#local">               
+                    <p>                
+                      Av. Maria Quitéria
+                    </p>
+                    <p>
+                      Feira de Santana - BA
+                    </p>
+                  </a>
+                </span>
+
+                
+              </div>
+
+              <div class="col-sm-3 align-self-center pt-2">
+                <p>                
+                  (75) 3221-6776
+                </p>
+
+              </div>
+
+              <div class="col-sm-3 align-self-center pt-2">
+                <p>                
+                  email@email.com.br
+                </p>
+              </div>
+              
+            </div>
+          </div> 
+          <!-- Copyright --> 
+        <!-- Copyright --> 
+      </div>
+      <div class="footer-copyright text-center py-3"><h5>© 2020 Copyright:
+          <a href="#"> Restaurante 1º Opção</a></h5>
       </div>
     </footer>
     <!-- FIM DO RODAPÉ -->

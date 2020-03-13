@@ -8,11 +8,14 @@
      <!-- SEÇÃO DO TOPO DO SITE-->
     <?php require_once "conteudo/secao_topo.php"?>
 
-    <!-- SEÇÃO DO ENTREGA DO SITE-->
-    <?php require_once "conteudo/secao_entrega.php"?>
+    <!-- SEÇÃO DO SERVIÇOS DO SITE-->
+    <?php require_once "conteudo/secao_servicos.php"?>
 
     <!-- SEÇÃO DO INSTAGRAM 2 DO SITE-->
     <?php require_once "conteudo/secao_instagram.php"?>
+
+    <!-- SEÇÃO DO ENTREGA DO SITE-->
+    <?php require_once "conteudo/secao_entrega.php"?>
 
     <!-- SEÇÃO DO LOCAL DO SITE-->
     <?php require_once "conteudo/secao_local.php"?>

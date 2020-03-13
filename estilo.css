@@ -390,3 +390,27 @@ iframe {
 /* CLASSES ADICIONAS NA FUNÇÃO DIMINUIR NAVBAR NO JS */
 .show {}
 .collapsed {}
+.secao_footer{
+	/*background-color: #023009;*/
+	background-color: #0a0a0a;
+}
+.secao_footer p {
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'Oswald',
+    sans-serif;
+    text-align: center;
+}
+.secao_footer a{
+	text-decoration: none;
+}
+.footer-copyright h5{
+    font-size: 18px;
+    color: #FFF;
+    font-family: 'Oswald',
+    sans-serif;
+    text-align: center;
+}
+.footer-copyright{
+	background-color: #000;
+}
