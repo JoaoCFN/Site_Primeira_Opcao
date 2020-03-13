@@ -67,9 +67,12 @@ function diminur_navbar() {
         if ($(window).scrollTop()) {
             $('nav').addClass('small');
 
+
         } else {
             $('nav').removeClass('small');
         }
+
+
     })
 
 }
@@ -77,17 +80,28 @@ function diminur_navbar() {
 function fecha_menu() {
     var menu = document.getElementsByClassName("navbar-collapse");
     var icone_menu = document.getElementsByClassName("navbar-toggler");
+    var clica_body = document.getElementsByTagName("body");
+
+    // SE ALGUMA OPÇÃO DO MENU FOR CLICADA, O MENU FECHA
     if ($(menu).click(function(e) {
             $(menu).removeClass('show');
             $(icone_menu).addClass('collapsed');
             $(icone_menu).attr("aria-expanded", "false")
         }));
 
+    // SE A PÁGINA FOR ROLADA, O MENU FECHA
+    if ($(window).scroll(function(e) {
+            $(menu).removeClass('show');
+            $(icone_menu).addClass('collapsed');
+            $(icone_menu).attr("aria-expanded", "false")
+        }));
 
 }
 
 diminur_navbar()
 fecha_menu()
+
+
 
 
 // DEBOUNCE DO LODASH
