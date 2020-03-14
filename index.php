@@ -29,6 +29,8 @@
     <!-- FOOTER ->
     <?php require_once "conteudo/footer.php"?>
 
+    <!-- FOOTER ->
+  <?php require_once "conteudo/secao_contato.php"?>
     
 
     
