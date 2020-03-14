@@ -1,138 +1,96 @@
-<form class="form-horizontal" method="get" action=".">
-    <fieldset>
-      <div class="panel panel-primary">
-          <div class="panel-heading">Formulario de contato</div>
-          
-          <div class="panel-body">
-      <div class="form-group">
+<form class="form-horizontal">
+<fieldset>
 
-      <div class="col-md-11 control-label">
-              <p class="help-block"><h11>*</h11> Campo Obrigatório </p>
-      </div>
-      </div>
+<!-- Form Name -->
+<legend>Formulário de cadastro</legend>
 
-      <div class="form-group">
-          <label class="col-md-2 control-label" for="Tratamento">Tratamento <h11>*</h11></label>
-          <div class="col-md-1">
-            <select required id="Tratamento" name="Tratamento" required="" class="form-control">
-              <option value="Sr.">Sr.</option>
-              <option value="Sra.">Sra.</option>
-            </select>
-          </div>
-      <br>
-      <!-- Text input-->
-      <div class="form-group">
-        <label class="col-md-2 control-label" for="Nome">Nome <h11>*</h11></label>  
-        <div class="col-md-5">
-        <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
-        </div>
-      </div>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="nome">Nome:</label>  
+  <div class="col-md-5">
+  <input id="nome" name="nome" type="text" placeholder="Digite seu nome" class="form-control input-md" required="">
+    
+  </div>
+</div>
 
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Numero">Número de contato:</label>  
+  <div class="col-md-4">
+  <input id="Numero" name="Numero" type="text" placeholder="(--) ----- ----" class="form-control input-md" required="">
+    
+  </div>
+</div>
 
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">Email para contato:</label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="email@email.com" class="form-control input-md" required="">
+    
+  </div>
+</div>
 
-      <!-- Prepended text-->
-      <div class="form-group">
-        <label class="col-md-2 control-label" for="prependedtext">Número para contato<h11>*</h11></label>
-        <div class="col-md-2">
-          <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-            <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX" required="" type="text" maxlength="13" pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
-            OnKeyPress="formatar('## #####-####', this)">
-          </div>
-        </div>
-        
-      <br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" id="cep" for="cep">CEP:</label>  
+  <div class="col-md-4">
+  <input id="cep" name="cep"  id="cep" type="text" placeholder="XXXXX-XXX" class="form-control input-md" required="">
+    
+  </div>
+</div>
 
-      <!-- Prepended text-->
-      <div class="form-group">
-        <label class="col-md-2 control-label" for="prependedtext">Email <h11>*</h11></label>
-        <div class="col-md-5">
-          <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-            <input id="prependedtext" name="prependedtext" class="form-control" placeholder="email@email.com" required="" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
-          </div>
-        </div>
-      </div>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" id="rua" for="rua">Rua:</label>  
+  <div class="col-md-4">
+  <input id="rua" name="rua" type="text" id="rua"  placeholder="" class="form-control input-md" required="" readonly>
+    
+  </div>
+</div>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="numero">Número:</label>  
+  <div class="col-md-2">
+  <input id="numero" name="numero" type="text" placeholder="" class="form-control input-md" required="" >
+    
+  </div>
+</div>
 
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" id="bairro" for="bairro">Bairro:</label>  
+  <div class="col-md-4">
+  <input id="bairro" name="bairro" id="bairro" type="text" placeholder="" class="form-control input-md" readonly>
+    
+  </div>
+</div>
 
-      <!-- Search input-->
-      <div class="form-group">
-        <label class="col-md-2 control-label" for="CEP">CEP <h11>*</h11></label>
-        <div class="col-md-2">
-          <input id="cep" name="cep" onblur="pesquisacep(this.value);" placeholder="Apenas números" class="form-control input-md" required="" value="" type="search" maxlength="8" pattern="[0-9]+$">
-        </div>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" id="cidade" for="cidade">Cidade:</label>  
+  <div class="col-md-4">
+  <input id="cidade" name="cidade" id="cidade" type="text" placeholder="" class="form-control input-md" readonly>
+    
+  </div>
+</div>
 
-      </div>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" id="estado" for="estado">Estado</label>  
+  <div class="col-md-4">
+  <input id="estado" name="estado" id="estado" type="text" placeholder="" class="form-control input-md" readonly>
+    
+  </div>
+</div>
 
-      <!-- Prepended text-->
-      <div class="form-group">
-        <label class="col-md-2 control-label" for="prependedtext">Endereço</label>
-        <div class="col-md-4">
-          <div class="input-group">
-            <span class="input-group-addon"> Rua</span>
-            <input id="rua" name="rua" class="form-control" placeholder="" required="" readonly="readonly" type="text">
-          </div>
-          
-        </div>
-          <div class="col-md-2">
-          <div class="input-group">
-            <span class="input-group-addon"> Nº <h11>*</h11></span>
-            <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
-          </div>
-          
-        </div>
-        <br>
-        <div class="col-md-3">
-          <div class="input-group">
-            <span class="input-group-addon"> Bairro</span>
-            <input id="bairro" name="bairro" class="form-control" placeholder="" required="" readonly="readonly" type="text">
-          </div>
-          
-        </div>
-      </div>
-      <br>
-      <div class="form-group">
-        <label class="col-md-2 control-label" for="prependedtext"></label>
-        <div class="col-md-4">
-          <div class="input-group">
-            <span class="input-group-addon"> Cidade</span>
-            <input id="cidade" name="cidade" class="form-control" placeholder="" required=""  readonly="readonly" type="text">
-          </div>
-        </div>
-        <br>
-         <div class="col-md-2">
-          <div class="input-group">
-            <span class="input-group-addon"> Estado</span>
-            <input id="estado" name="estado" class="form-control" placeholder="" required=""  readonly="readonly" type="text">
-          </div>
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-8 control-label" for="textarea">Mensagem:</label>
+  <div class="col-md-8">                     
+    <textarea class="form-control" id="textarea" name="textarea">Escreva aqui sua mensagem</textarea>
+  </div>
+</div>
 
-        </div>
-      <br>
-        <div class="col-md-3">
-          <div class="input-group">
-            <span class="input-group-addon">Ponto de referência</span>
-            <input id="textinput" name="textinput" class="form-control" placeholder="" type="text">
-          </div>
-
-          
-        </div>
-
-      </div>
-        
-
-       
-       <!-- Text input-->
-      <div class="form-group">
-        <label class="col-md-2 control-label" for="textinput">Como conheceu o restaurante</label>  
-        <div class="col-md-4">
-        <input id="textinput" name="textinput" placeholder="" class="form-control input-md" type="text">
-          
-
-        </div>
-        
-      </div>
-
-
-
-  </fieldset>
+</fieldset>
 </form>
