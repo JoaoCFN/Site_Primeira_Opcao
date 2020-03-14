@@ -133,7 +133,7 @@
   <div class="col-md-3">
     <div class="input-group">
       <span class="input-group-addon">Ponto de referência</span>
-      <input id="estado" name="estado" class="form-control" placeholder="" type="text">
+      <input id="textinput" name="textinput" class="form-control" placeholder="" type="text">
     </div>
 
     

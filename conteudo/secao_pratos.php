@@ -6,15 +6,12 @@
             <div class="col-sm-4 order-first">
                 <a data-fancybox="gallery" href="midia\lightbox\imagem2.jpg"><img src="midia\lightbox\thumb\thumb (1).jpg" class="img-fluid"></a>
             </div>
-
             <div class="col-sm-4">
                 <a data-fancybox="gallery" href="midia\lightbox\imagem3.jpg"><img src="midia\lightbox\thumb\thumb (2).jpg" class="img-fluid"></a>
             </div>
-
             <div class="col-sm-4">
                 <a data-fancybox="gallery" href="midia\lightbox\imagem4.jpg"><img src="midia\lightbox\thumb\thumb (3).jpg" class="img-fluid"></a>
             </div>
-
             <div class="col-sm-4">
                 <a data-fancybox="gallery" href="midia\lightbox\imagem5.jpg"><img src="midia\lightbox\thumb\thumb (4).jpg" class="img-fluid"></a>
             </div>
