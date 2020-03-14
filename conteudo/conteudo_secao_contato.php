@@ -2,7 +2,7 @@
 <fieldset>
 
 <!-- Form Name -->
-<legend>Formulário de cadastro</legend>
+<legend>Formulário de contato</legend>
 
 <!-- Text input-->
 <div class="form-group">
