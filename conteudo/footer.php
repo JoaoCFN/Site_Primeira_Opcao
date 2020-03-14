@@ -36,7 +36,7 @@
 
               <div class="col-sm-3 align-self-center pt-2">
                 <p>                
-                  email@email.com.br
+                  restaurantes1opcao@hotmail.com
                 </p>
               </div>
               
@@ -45,8 +45,10 @@
           <!-- Copyright --> 
         <!-- Copyright --> 
       </div>
-      <div class="footer-copyright text-center py-3"><h5>© 2020 Copyright:
-          <a href="#"> Restaurante 1º Opção</a></h5>
+      <div class="footer-copyright text-center py-3">
+        <h5>© 2020 Copyright:
+          Restaurante 1º Opção
+        </h5>
       </div>
     </footer>
     <!-- FIM DO RODAPÉ -->
