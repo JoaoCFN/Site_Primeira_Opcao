@@ -1,7 +1,9 @@
 <!-- Botão para acionar modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalLongoExemplo">
-  Abrir modal de demonstração
-</button>
+<div align = "center">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalLongoExemplo" >
+    Abrir modal de demonstração
+  </button>
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
