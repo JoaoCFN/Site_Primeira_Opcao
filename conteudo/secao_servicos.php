@@ -4,13 +4,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4 align-self-center">
-					<img src="./midia/servicos/icon1.png" class="img-fluid" align="center">	
+					<img src="./midia/servicos/icon1.png" class="img-fluid" align="center" width="300">	
 				</div>
 				<div class="col-sm-4 align-self-center" class="img-fluid">
-					<img src="./midia/servicos/icon2.png" class="img-fluid" align="center"> 	
+					<img src="./midia/servicos/icon2.png" class="img-fluid" align="center" width="350"> 	
 				</div>
 				<div class="col-sm-4 align-self-center" class="img-fluid">
-					<img src="./midia/servicos/icon3.png" class="img-fluid " align="center">	
+					<img src="./midia/servicos/icon3.png" class="img-fluid " align="center" width="350">	
 				</div>	
 			</div>	
 		</div>
