@@ -36,7 +36,7 @@
 
               <div class="col-sm-3 align-self-center pt-2">
                 <p>                
-                  email@email.com.br
+                  restaurantes1opcao@hotmail.com
                 </p>
               </div>
               
@@ -45,8 +45,10 @@
           <!-- Copyright --> 
         <!-- Copyright --> 
       </div>
-      <div class="footer-copyright text-center py-3"><h5>© 2020 Copyright:
-          <a href="#"> Restaurante 1º Opção</a></h5>
+      <div class="footer-copyright text-center py-3">
+        <h5>© 2020 Copyright:
+          Restaurante 1º Opção
+        </h5>
       </div>
     </footer>
     <!-- FIM DO RODAPÉ -->
@@ -59,9 +61,6 @@
     <script src="conteudo/js/jquery-3.4.1.min.js"></script>
     <script src="conteudo/js/app.js" ></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="bootstrap.min.js"></script>
   </body>
 
 </html>

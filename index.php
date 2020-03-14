@@ -25,12 +25,14 @@
 
     <!-- SEÇÃO DOS PRATOS DO SITE-->
     <?php require_once "conteudo/secao_pratos.php"?>
-      
-    <!-- FOOTER ->
+    
+    <!-- SEÇÃO DE CONTATO -->
+    <?php require_once "conteudo/secao_contato.php"?>
+
+    <!-- FOOTER -->
     <?php require_once "conteudo/footer.php"?>
 
-    <!-- FOOTER ->
-  <?php require_once "conteudo/secao_contato.php"?>
+    
     
 
     
