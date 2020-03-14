@@ -1,4 +1,14 @@
-<form class="form-horizontal" method="get" action=".">
+
+
+
+<!-- Modal extra grande -->
+<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Modal extra grande</button>
+
+<div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+     
+    <form class="form-horizontal" method="get" action=".">
 <fieldset>
 <div class="panel panel-primary">
     <div class="panel-heading">Formulario de contato</div>
@@ -30,8 +40,6 @@
       </select>
     </div>
 <br>
-<br>
-<br>
 <!-- Text input-->
 <div class="form-group">
   <label class="col-md-2 control-label" for="Nome">Nome <h11>*</h11></label>  
@@ -44,7 +52,7 @@
 
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone <h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Número para contato<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -53,15 +61,7 @@
     </div>
   </div>
   
-    <label class="col-md-1 control-label" for="prependedtext">Telefone</label>
-     <div class="col-md-2">
-    <div class="input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX" type="text" maxlength="13"  pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
-      OnKeyPress="formatar('## #####-####', this)">
-    </div>
-  </div>
- </div> 
+<br>
 
 <!-- Prepended text-->
 <div class="form-group">
@@ -89,47 +89,45 @@
   <label class="col-md-2 control-label" for="prependedtext">Endereço</label>
   <div class="col-md-4">
     <div class="input-group">
-      <span class="input-group-addon">Rua</span>
+      <span class="input-group-addon"> Rua</span>
       <input id="rua" name="rua" class="form-control" placeholder="" required="" readonly="readonly" type="text">
     </div>
     
   </div>
     <div class="col-md-2">
     <div class="input-group">
-      <span class="input-group-addon">Nº <h11>*</h11></span>
+      <span class="input-group-addon"> Nº <h11>*</h11></span>
       <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
     </div>
     
   </div>
-  
+  <br>
   <div class="col-md-3">
     <div class="input-group">
-      <span class="input-group-addon">Bairro</span>
+      <span class="input-group-addon"> Bairro</span>
       <input id="bairro" name="bairro" class="form-control" placeholder="" required="" readonly="readonly" type="text">
     </div>
     
   </div>
 </div>
-
+<br>
 <div class="form-group">
   <label class="col-md-2 control-label" for="prependedtext"></label>
   <div class="col-md-4">
     <div class="input-group">
-      <span class="input-group-addon">Cidade</span>
+      <span class="input-group-addon"> Cidade</span>
       <input id="cidade" name="cidade" class="form-control" placeholder="" required=""  readonly="readonly" type="text">
     </div>
-    
   </div>
-  
+  <br>
    <div class="col-md-2">
     <div class="input-group">
-      <span class="input-group-addon">Estado</span>
+      <span class="input-group-addon"> Estado</span>
       <input id="estado" name="estado" class="form-control" placeholder="" required=""  readonly="readonly" type="text">
     </div>
 
-    
   </div>
-
+<br>
   <div class="col-md-3">
     <div class="input-group">
       <span class="input-group-addon">Ponto de referência</span>
@@ -167,3 +165,7 @@
 
 </fieldset>
 </form>
+
+    </div>
+  </div>
+</div>
