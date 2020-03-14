@@ -389,7 +389,7 @@ iframe {
 .collapsed {}
 .secao_footer {
     /*background-color: #023009;*/
-    background-color: #0a0a0a;
+    background-color: #111212;
 }
 .secao_footer p {
     font-size: 20px;
@@ -413,9 +413,7 @@ iframe {
 }
 
 /* CSS DO FORMULARIO */
-h11 {
-    color:red;
-}
+
 #logo {
     width:50%;
     height:50%;
