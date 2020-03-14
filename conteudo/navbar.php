@@ -34,7 +34,7 @@
               </li>
               <li class="nav-item">
                 <span>
-                  <a class="nav-link p-3" href=".bd-example-modal-xl">CONTATO</a>
+                  <a class="nav-link p-3" href="#contato">CONTATO</a>
                 </span>
               </li>
 

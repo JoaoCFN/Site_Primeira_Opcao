@@ -1,6 +1,3 @@
-
-
-
 <!-- Modal extra grande -->
 <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Modal extra grande</button>
 
@@ -169,3 +166,4 @@
     </div>
   </div>
 </div>
+<br>
