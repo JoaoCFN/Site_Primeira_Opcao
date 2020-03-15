@@ -8,8 +8,9 @@
 						<h1 class="txt_capa_3">Entrega a domicílio</h1>					
 			            <p class="txt_capa_2">Receba seus pedidos em casa</p>
 			            <p class="txt_capa_2">Disponibilidade de entrega na hora!</p>
-
-			            <a href="#ambiente"><button type="button" class="btn btn-outline-light btn-lg texto_botao btn_ambiente btn_laranja">FAÇA SEU PEDIDO</button></a>	
+			            <span>
+			            	<a href="#contato"><button type="button" class="btn btn-outline-light btn-lg texto_botao btn_ambiente btn_laranja">FAÇA SEU PEDIDO</button></a>
+			        	</span>
 					</div>	
 				</div>	
 				<div class="col-sm-6 pt-4 pb-5 align-self-center">

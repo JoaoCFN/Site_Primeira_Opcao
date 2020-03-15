@@ -28,16 +28,24 @@
               </div>
 
               <div class="col-sm-3 align-self-center pt-2">
-                <p>                
-                  (75) 3221-6776
-                </p>
+                <span>
+                  <a href="#contato">  
+                    <p>                
+                      (75) 3221-6776
+                    </p>
+                  </a>
+                </span>
 
               </div>
 
               <div class="col-sm-3 align-self-center pt-2">
-                <p>                
-                  restaurantes1opcao@hotmail.com
-                </p>
+                <span>
+                  <a href="#contato">  
+                    <p>                
+                      restaurantes1opcao@hotmail.com
+                    </p>
+                  </a>
+                </span>
               </div>
               
             </div>
