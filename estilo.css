@@ -385,20 +385,20 @@ iframe {
     .localizacao {
         margin-top: -50px !important;
     }
-    @media (max-width: 430px) {
+}
+@media (max-width: 430px) {
+.localizacao {
+    margin-top: -65px !important;
+}
+}
+@media (max-width: 400px) {
     .localizacao {
-        margin-top: -65px !important;
+        margin-top: -85px !important;
     }
-    }
-    @media (max-width: 400px) {
-        .localizacao {
-            margin-top: -85px !important;
-        }
-    }
-    @media (max-width: 360px) {
-        .localizacao {
-            margin-top: -105px !important;
-        }
+}
+@media (max-width: 360px) {
+    .localizacao {
+        margin-top: -105px !important;
     }
 }
 

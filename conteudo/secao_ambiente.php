@@ -1,6 +1,6 @@
 <div id="ambiente" class="container scroll_animado" >
   <div class="secao_ambiente" >
-    <h1 class="pb-4">Ambiente</h1>
+    <h1 class="pt-3 pb-4">Ambiente</h1>
     <div id="carouselExampleFade" class="carousel-fade" data-ride="carousel">
 
       <div class="carousel-inner">
