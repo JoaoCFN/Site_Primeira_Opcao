@@ -168,6 +168,16 @@ iframe {
     color: #ff6701;
 }
 
+.btn_preto {
+    background-color: #000;
+    color: #FFF;
+}
+.btn_preto:hover {
+    border-color: #000;
+    background-color: #FFF;
+    color: #000;
+}
+
 }
 .btn_enviar {
     width: 100% !important;

@@ -1,9 +1,15 @@
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Formulário de contato</button>
-
-<!-- Botão para acionar modal -->
-<div align = "center">
-
+<div id="contato">
+  <div class="#">
+    <div class="scroll_animado">
+      <!-- Botão para acionar modal -->
+      <div align = "center">
+        <h1 class="txt_capa_4 pb-4">Contato</h1>
+        <button type="button" class="btn btn-outline-light btn-lg texto_botao btn_ambiente btn_laranja" data-toggle="modal" data-target=".bd-example-modal-lg">Formulário de contato</button>
+      </div>
+    </div>
+  </div>
 </div>
+
 
 <!-- Modal -->
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -12,10 +18,11 @@
       <!-- FORMULÁRIO ESTÁ POSICIONADO EM OUTRO ARQUIVO-->
       <?php require_once "conteudo/conteudo_secao_contato.php"?> 
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">Salvar mudanças</button> 
-    </div>
+        <button type="button" class="btn btn-outline-light btn-lg texto_botao btn_ambiente btn_preto" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-outline-light btn-lg texto_botao btn_ambiente btn_laranja">Enviar</button> 
+      </div>
 
+    </div>
   </div>
 </div>
 <!-- Modal -->
