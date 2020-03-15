@@ -299,12 +299,7 @@ iframe {
 .secao_instagram .fa-instagram{
     font-size: 22px;
 }
-.btn_insta {
-    width: 25%;
-}
-.btn_contato{
-    width: 30%;          
-}
+
 .secao_ambiente h1 {
     font-size: 55px;
     color: #000;
@@ -384,6 +379,28 @@ iframe {
     cursive;
     text-align: center;
 }
+
+.secao_contato p{
+    font-size: 25px;
+    color: #FFF;
+    font-family: 'Oswald',
+    cursive;
+    text-align: center;
+}
+.secao_contato .fa-instagram{
+    font-size: 50px;
+    color: #FFF;
+}
+.secao_contato .fa-whatsapp{
+    font-size: 50px;
+    color: #FFF;
+}
+.secao_contato a{
+    text-decoration: none;
+}
+.secao_contato .btn_contato{
+    font-size: 22px;
+}
 /* AJUSTAR IMAGEM NO CAROUSEL */
 @media (max-width: 490px) {
     .localizacao {
@@ -391,9 +408,12 @@ iframe {
     }
 }
 @media (max-width: 430px) {
-.localizacao {
-    margin-top: -65px !important;
-}
+    .localizacao {
+        margin-top: -65px !important;
+    }
+    .icones_servicos{
+        width: 150px;
+    }
 }
 @media (max-width: 400px) {
     .localizacao {
