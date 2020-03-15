@@ -7,7 +7,7 @@
 					<p class="sombra">Quer um contato mais próximo com a gente?</p>
 					<p class="sombra">Siga-nos no Instagram</p>
 					
-	                <a target="_blank" href="https://www.instagram.com/restaurante1opcao/?hl=pt-br"><button type="button" class="btn btn-outline-light btn-lg texto_botao sombra btn_insta">SEGUIR</button></a>
+	                <a target="_blank" href="https://www.instagram.com/restaurante1opcao/?hl=pt-br"><button type="button" class="btn btn-outline-light btn-lg texto_botao sombra btn_insta"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i>SEGUIR</button></a>
 				</div>
 				
 			</div> 

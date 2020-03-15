@@ -296,6 +296,9 @@ iframe {
     sans-serif;
     text-align: center;
 }
+.secao_instagram .fa-instagram{
+    font-size: 22px;
+}
 .btn_insta {
     width: 25%;
 }
