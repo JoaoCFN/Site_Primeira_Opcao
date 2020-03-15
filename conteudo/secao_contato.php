@@ -1,10 +1,12 @@
 <div id="contato">
-  <div class="#">
-    <div class="scroll_animado">
-      <!-- Botão para acionar modal -->
-      <div align = "center">
-        <h1 class="txt_capa_4 pb-4">Contato</h1>
-        <button type="button" class="btn btn-outline-light btn-lg texto_botao btn_ambiente btn_laranja" data-toggle="modal" data-target=".bd-example-modal-lg">Formulário de contato</button>
+  <div class="secao_contato">
+    <div class="container">
+      <div class="scroll_animado">
+        <!-- Botão para acionar modal -->
+        <div align = "center">
+          <h1 class="pb-4">Contato</h1>
+          <button type="button" class="btn btn-outline-light btn-lg texto_botao sombra btn_contato" data-toggle="modal" data-target=".bd-example-modal-lg">Entre em contato</button>
+        </div>
       </div>
     </div>
   </div>

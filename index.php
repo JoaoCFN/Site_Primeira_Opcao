@@ -17,17 +17,17 @@
     <!-- SEÇÃO DO ENTREGA DO SITE-->
     <?php require_once "conteudo/secao_entrega.php"?>
 
-    <!-- SEÇÃO DO LOCAL DO SITE-->
-    <?php require_once "conteudo/secao_local.php"?>
+    <!-- SEÇÃO DOS PRATOS DO SITE-->
+    <?php require_once "conteudo/secao_pratos.php"?>
 
+    <!-- SEÇÃO DE CONTATO -->
+    <?php require_once "conteudo/secao_contato.php"?>
+  
     <!-- SEÇÃO DO AMBIENTE DO SITE-->
     <?php require_once "conteudo/secao_ambiente.php"?>
 
-    <!-- SEÇÃO DOS PRATOS DO SITE-->
-    <?php require_once "conteudo/secao_pratos.php"?>
-    
-    <!-- SEÇÃO DE CONTATO -->
-    <?php require_once "conteudo/secao_contato.php"?>
+    <!-- SEÇÃO DO LOCAL DO SITE-->
+    <?php require_once "conteudo/secao_local.php"?>
 
     <!-- FOOTER -->
     <?php require_once "conteudo/footer.php"?>

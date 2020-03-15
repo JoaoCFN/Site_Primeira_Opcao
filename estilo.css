@@ -23,6 +23,14 @@ header,
     background-size: cover;
     height: 520px;
 }
+#contato{
+    background: url("./midia/contato/contato3.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;    
+}
 
 body {
     background-color: #FFF;
@@ -291,6 +299,9 @@ iframe {
 .btn_insta {
     width: 25%;
 }
+.btn_contato{
+    width: 30%;          
+}
 .secao_ambiente h1 {
     font-size: 55px;
     color: #000;
@@ -430,4 +441,17 @@ iframe {
 }
 .panel-heading {
     font-size:150%;
+}
+
+.secao_contato {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.secao_contato h1 {
+    font-size: 60px;
+    color: #FFF;
+    font-family: 'Pacifico',
+    cursive;
+    text-align: center;
 }
