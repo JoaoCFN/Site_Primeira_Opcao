@@ -403,6 +403,15 @@ iframe {
     }
 }
 
+/* SEÇÃO SERVIÇOS */
+.secao_servicos h5{
+    font-size: 30px;
+    color: #000;
+    font-family: 'Oswald',
+    sans-serif;
+    text-align: center;
+}
+
 
 
 
