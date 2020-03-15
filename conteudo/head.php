@@ -14,6 +14,8 @@
     <!-- ANIMAÇÃO W3 -->
     <link rel="stylesheet" href="w3.css">
 
+    <!-- FONTES -->
+
     <!-- Berkshire Swash -->
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet"> 
 
@@ -33,8 +35,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- card -->
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./midia/favicon.ico" />
 
 
 
