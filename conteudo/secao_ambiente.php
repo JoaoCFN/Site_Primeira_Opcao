@@ -1,7 +1,7 @@
 <div id="ambiente" class="container scroll_animado" >
   <div class="secao_ambiente" >
     <h1 class="pb-4">Ambiente</h1>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carouselExampleFade" class="carousel-fade" data-ride="carousel">
 
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -24,14 +24,14 @@
       </div>
 
 
-      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <!--<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Anterior</span>
       </a>
       <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Próximo</span>
-      </a>
+      </a>-->
 
     </div>
   </div>

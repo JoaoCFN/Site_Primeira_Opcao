@@ -1,4 +1,4 @@
-<div id="local" class="localizacao pt-3 pb-5">
+<div id="local" class="localizacao pt-3 pb-3">
 	<div class="scroll_animado">
 		<h1 class="txt_capa_4 pb-4">Localização</h1>
 		<div class="container">
