@@ -463,6 +463,7 @@ iframe {
     cursive;
     text-align: center;
 }
+/*
 #intro .btn-outline-light{
     color: #000;
     background-color: #fff;
@@ -471,14 +472,17 @@ iframe {
     color: #fff;
     background-color: transparent;
 }
+*/
 .secao_historia .btn-outline-light{
     color: #000;
     background-color: #fff;
 }
+
 .secao_historia .btn-outline-light:hover{
     color: #fff;
     background-color: transparent;
 }
+
 .modal_historia h1 {
     font-size: 60px;
     color: #000;
