@@ -434,6 +434,13 @@ iframe {
     sans-serif;
     text-align: center;
 }
+.secao_servicos p{
+    text-align: center;
+    font-family: 'Oswald',
+    sans-serif;
+    color: #000;
+    font-size: 20px;
+}
 
 
 
