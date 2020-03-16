@@ -5,7 +5,7 @@
     <div class="container">
 
       <!-- Navbar brand -->
-      <a class="navbar-brand" href="index.php"><img class="img-fluid" src="midia/logo04.png" width="185"></a>
+      <a class="navbar-brand" href="index.php"><img class="img-fluid" src="midia/logo04.png" width="200"></a>
 
       <!-- Collapse button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarpriopcao"
