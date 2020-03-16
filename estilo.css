@@ -31,6 +31,14 @@ header,
     background-size: cover;
     height: 400px;    
 }
+#historia{
+    background: url("./midia/foto_historia.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;    
+}
 
 body {
     background-color: #FFF;
@@ -90,6 +98,7 @@ iframe {
 .cor_menu {
     background-color: rgba(255, 103, 1, .9);
     transition: 1.5s;
+    box-shadow: 1px 1px 5px;
 }
 
 .titulo_nav {
@@ -441,7 +450,50 @@ iframe {
     color: #000;
     font-size: 20px;
 }
+/* SEÇÃO HISTÓRIA */
+.secao_historia {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.secao_historia h1 {
+    font-size: 60px;
+    color: #FFF;
+    font-family: 'Pacifico',
+    cursive;
+    text-align: center;
+}
+#intro .btn-outline-light{
+    color: #000;
+    background-color: #fff;
+}
+#intro .btn-outline-light:hover{
+    color: #fff;
+    background-color: transparent;
+}
+.secao_historia .btn-outline-light{
+    color: #000;
+    background-color: #fff;
+}
+.secao_historia .btn-outline-light:hover{
+    color: #fff;
+    background-color: transparent;
+}
+.modal_historia h1 {
+    font-size: 60px;
+    color: #000;
+    font-family: 'Pacifico',
+    cursive;
+    text-align: center;  
+}
 
+.modal_historia p {
+    text-align: justify;
+    font-family: 'Oswald',
+    sans-serif;
+    color: #000;
+    font-size: 20px;   
+}
 
 
 

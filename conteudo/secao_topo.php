@@ -14,13 +14,13 @@
                             <div class="col-sm-6 pb-2">
                               <!-- BOTÃO "PRODUTOS" -->
                               <span>
-                                <a href="#pratos"><button type="button" class="btn btn-outline-light btn-lg texto_botao sombra">PRATOS</button></a>
+                                <a href="#pratos"><button type="button" class="btn btn-outline-light btn-lg texto_botao">PRATOS</button></a>
                               </span>
                             </div>
                             <div class="col-sm-6 pb-2">
                               <!-- BOTÃO "PROMOÇÕES" -->
                               <span>
-                                <a href="#entrega"><button type="button" class="btn btn-outline-light btn-lg texto_botao sombra">ENTREGA</button></a>
+                                <a href="#entrega"><button type="button" class="btn btn-outline-light btn-lg texto_botao">ENTREGA</button></a>
                               </span>
                             </div>   
                           </div>

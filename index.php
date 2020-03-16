@@ -29,6 +29,9 @@
     <!-- SEÇÃO DO LOCAL DO SITE-->
     <?php require_once "conteudo/secao_local.php"?>
 
+    <!-- SEÇÃO DE HISTÓRIA DO SITE-->
+    <?php require_once "conteudo/secao_historia.php"?>
+
     <!-- FOOTER -->
     <?php require_once "conteudo/footer.php"?>
 
