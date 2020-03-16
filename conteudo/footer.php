@@ -7,7 +7,7 @@
               <div class="col-sm-3 align-self-center pt-2">
                 <p>
                   <a href="index.php">
-                    <img class="img-fluid" src="midia/logo03.png" width="230">
+                    <img class="img-fluid" src="midia/logo04.png" width="230">
                   </a>
                 </p>  
               </div>  
