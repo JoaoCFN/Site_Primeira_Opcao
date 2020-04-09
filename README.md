@@ -1,6 +1,6 @@
 # Site_Primeira_Opcao
 
-![Print da tela inicial](midia/primeira-opcao.png?raw=true "Optional Title")
+![Print da tela inicial](midia/primeira-opcao.png?raw=true "Print do começo da homepage")
 
 
 **Projeto do curso de Desenvolvimento de Sistemas - SENAI (Disciplina de Modelagem de Sistemas).**
