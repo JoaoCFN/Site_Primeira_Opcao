@@ -4,14 +4,12 @@
 
 ## :pencil: Projeto 
 
-### Projeto do curso de Desenvolvimento de Sistemas - SENAI (Disciplina de Modelagem de Sistemas).**
+#### Projeto final da disciplina de Modelagem de Sistemas do curso de Desenvolvimento de Sistemas - SENAI. Este projeto teve como objetivo resolver um problema de um cliente real.
 
-Site para o restaurante 1º opção.
+**:link: Acesse o site e confira o projeto:
+http://projetoprimeiraopcao-com.umbler.net/**
 
-Você pode acessar o projeto em:
-http://projetoprimeiraopcao-com.umbler.net/
-
-Caso a página peça permissões de usuário e senha, use:
+#### Caso a página peça permissões de usuário e senha, use:
 - Admin: umbler
 - Senha: testehospedagem
 
