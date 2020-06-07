@@ -4,12 +4,12 @@
 
 ## :pencil: Projeto 
 
-#### Projeto final da disciplina de Modelagem de Sistemas do curso de Desenvolvimento de Sistemas - SENAI. Este projeto teve como objetivo resolver um problema de um cliente real.
+### Projeto final da disciplina de Modelagem de Sistemas do curso de Desenvolvimento de Sistemas - SENAI. 
 
-**:link: Acesse o site e confira o projeto:
-http://projetoprimeiraopcao-com.umbler.net/**
+#### :link: Acesse o site e confira o projeto: http://projetoprimeiraopcao-com.umbler.net/
 
-#### Caso a página peça permissões de usuário e senha, use:
+
+### Caso a página peça permissões de usuário e senha, use:
 - Admin: umbler
 - Senha: testehospedagem
 
